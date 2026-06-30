@@ -28,7 +28,7 @@ app.add_middleware(
 
 @app.get("/")
 async def hello_world():
-    return {"Hello": "World"}
+    return {"Hello": "Man"}
 
 
 @app.get("/api/entries/")
